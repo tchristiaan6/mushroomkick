@@ -1,0 +1,12 @@
+---
+import Base from '../../../layouts/Base.astro';
+import PostCard from '../../../components/PostCard.astro';
+import { posts } from '../../../lib/data';
+---
+<Base title="Mushroom Wellness Blog" description="Articles on functional mushrooms, mushroom coffee, adaptogens and nootropics from Mushroom Kick.">
+<section class="section"><div class="container">
+  <p class="kicker">Blog</p><h1>Mushroom Wellness</h1>
+  <p style="max-width:600px;color:#3a3a3a">{posts.length} articles on functional mushrooms, mushroom coffee, adaptogens and the science behind them.</p>
+  <div class="grid grid--3" style="margin-top:32px">{posts.map((p: any) => <PostCard post={p} />)}</div>
+</div></section>
+</Base>

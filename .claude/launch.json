@@ -1,0 +1,1 @@
+{ "version": "0.0.1", "configurations": [ { "name": "mk", "runtimeExecutable": "npx", "runtimeArgs": ["astro", "preview", "--port", "4321", "--host", "127.0.0.1"], "port": 4321 } ] }

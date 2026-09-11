@@ -1,0 +1,88 @@
+---
+import Base from '../layouts/Base.astro';
+import ProductCard from '../components/ProductCard.astro';
+import PostCard from '../components/PostCard.astro';
+import { site, products, posts, productByHandle, money } from '../lib/data';
+const featured = productByHandle('full-spectrum-mushroom-complex-10x-gummies');
+const latest = posts.slice(0, 3);
+const trust = site.trust.map((t: any) => ({ ...t, text: t.text.replace(new RegExp('^' + t.title.replace(/[-]/g, '\\-') + '\\s*'), '') }));
+---
+<Base description={site.hero.text}>
+<section class="hero"><div class="container hero__grid">
+  <div class="hero__text">
+    <p class="kicker">{site.hero.kicker}</p>
+    <h1>{site.hero.title}</h1>
+    <p class="hero__lede">{site.hero.text}</p>
+    <a class="btn" href="/collections/all">{site.hero.cta}</a>
+  </div>
+  <div class="hero__img"><img src={site.hero.image} alt="Fresh functional mushrooms" width="1200" height="540" fetchpriority="high"></div>
+</div></section>
+
+<div class="marquee" aria-hidden="true"><div class="marquee__track">{[...site.marquee, ...site.marquee].map((m: string) => <span>{m}</span>)}</div></div>
+
+<section class="section reveal"><div class="container why">
+  <div class="why__text"><h2>{site.why.title}</h2><p>{site.why.text}</p><a class="btn btn--outline" href="/blogs/mushroom-wellness">{site.why.cta}</a></div>
+  <img class="why__img" src={site.why.image} alt="Person picking mushrooms" loading="lazy" width="1000" height="666">
+</div></section>
+
+<section class="section section--tight reveal"><div class="container">
+  <div class="row-head"><h2 style="font-size:28px">Shop by collection</h2><a href="/collections/all">View all collections</a></div>
+  <div class="grid grid--3">{site.collections.map((c: any) => <a class="card" href={c.href}><img class="card__img" src={c.image} alt={c.label} loading="lazy" width="600" height="600"><div class="card__body"><p class="card__title" style="text-align:center">{c.label}</p></div></a>)}</div>
+</div></section>
+
+<section class="section section--soft reveal"><div class="container">
+  <p class="kicker">The mushrooms</p>
+  <div class="snap mush">{site.mushrooms.map((m: any) => <article class="mush__card" style={`background-image:url(${m.images[0]})`}>
+    <div class="mush__inner">
+      <h3>{m.name}</h3><p>{m.text}</p>
+      <p class="mush__label">Benefits</p><ul>{m.benefits.map((b: string) => <li>{b}</li>)}</ul>
+      <a class="btn btn--outline" href={m.href}>Learn more</a>
+    </div>
+    <img src={m.images[1]} alt={m.name} loading="lazy" width="600" height="400">
+  </article>)}</div>
+</div></section>
+
+{featured && <section class="section reveal"><div class="container feat">
+  <div class="feat__gallery"><img src={featured.images[0].src} alt={featured.title} loading="lazy" width="800" height="800"></div>
+  <div class="feat__text">
+    <p class="kicker">Featured</p>
+    <h2>{featured.title}</h2>
+    <p class="feat__price">{money(featured.price)}</p>
+    <div class="rte feat__desc" set:html={featured.body} />
+    <div class="feat__actions"><span class="btn btn--disabled">No longer available</span><a class="btn btn--outline" href={`/products/${featured.handle}`}>View product</a></div>
+  </div>
+</div></section>}
+
+<section class="section section--tight reveal"><div class="container">
+  <div class="badges">{site.badges.map((b: any) => <div class="badge"><img src={b.icon} alt="" width="64" height="64" loading="lazy"><span>{b.label}</span></div>)}</div>
+</div></section>
+
+<section class="section section--soft reveal"><div class="container">
+  <div class="row-head"><h2 style="font-size:28px">Check out the latest from our blog</h2><a href="/blogs/mushroom-wellness">Visit the blog</a></div>
+  <div class="grid grid--3">{latest.map((p: any) => <PostCard post={p} />)}</div>
+</div></section>
+
+<section class="section reveal"><div class="container">
+  <div class="grid grid--4 trust">{trust.map((t: any) => <div class="trust__item"><img src={t.icon} alt="" width="120" height="120" loading="lazy"><h3>{t.title}</h3><p>{t.text}</p></div>)}</div>
+</div></section>
+</Base>
+<style>
+.hero{background:var(--bg-soft);padding:56px 0 0;overflow:hidden}
+.hero__grid{display:grid;grid-template-columns:1.05fr 1fr;gap:40px;align-items:center}
+.hero__text{padding-bottom:56px}.hero h1{font-size:clamp(38px,5vw,60px);font-weight:500;margin-bottom:18px}.hero__lede{max-width:520px;color:#3a3a3a;margin-bottom:28px}
+.hero__img img{width:100%;height:100%;object-fit:cover;min-height:380px}
+@media(max-width:860px){.hero__grid{grid-template-columns:1fr}.hero__text{padding-bottom:32px}.hero__img{margin:0 -24px}.hero__img img{min-height:260px}}
+.why{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}.why__text{max-width:520px;margin:0 auto;text-align:center}.why__img{border-radius:var(--radius);width:100%;object-fit:cover}
+@media(max-width:860px){.why{grid-template-columns:1fr}}
+.row-head{display:flex;justify-content:space-between;align-items:baseline;gap:16px;margin-bottom:22px}.row-head a{font-size:14px;font-weight:500}
+.mush__card{position:relative;width:min(88vw,520px);border-radius:var(--radius);background:#fff center/cover no-repeat;border:1px solid var(--border-soft);display:grid;grid-template-columns:1.1fr 1fr;overflow:hidden;min-height:340px}
+.mush__inner{padding:28px;background:rgba(255,255,255,.82)}.mush__inner p{font-size:14px;color:#3a3a3a}.mush__label{font-weight:500;color:var(--ink)!important;margin-bottom:4px}.mush__inner ul{margin:0 0 18px;padding-left:18px;font-size:13.5px}.mush__inner li{margin:2px 0}
+.mush__card img{width:100%;height:100%;object-fit:cover}
+@media(max-width:560px){.mush__card{grid-template-columns:1fr}.mush__card img{max-height:200px}}
+.feat{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start}.feat__gallery img{border-radius:var(--radius);border:1px solid var(--border-soft)}.feat__price{font-size:22px;font-weight:500}
+.feat__desc{font-size:15px;max-height:340px;overflow:hidden;position:relative;-webkit-mask-image:linear-gradient(#000 70%,transparent);mask-image:linear-gradient(#000 70%,transparent)}
+.feat__actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:8px}
+@media(max-width:860px){.feat{grid-template-columns:1fr}}
+.badges{display:flex;flex-wrap:wrap;justify-content:center;gap:28px 36px}.badge{display:flex;flex-direction:column;align-items:center;gap:8px;font-size:13px;font-weight:500;width:96px;text-align:center}.badge img{width:56px;height:56px}
+.trust__item{text-align:center}.trust__item img{width:72px;height:72px;margin:0 auto 12px}.trust__item h3{font-size:17px}.trust__item p{font-size:14px;color:var(--muted)}
+</style>

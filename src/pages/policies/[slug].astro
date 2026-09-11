@@ -1,0 +1,9 @@
+---
+import Base from '../../layouts/Base.astro';
+import { pages } from '../../lib/data';
+export function getStaticPaths() { return ['privacy-policy', 'refund-policy', 'shipping-policy'].map(s => ({ params: { slug: s } })); }
+const page = pages.find(p => p.slug === Astro.params.slug);
+---
+<Base title={page.title}>
+<section class="section"><div class="container"><h1>{page.title}</h1><div class="rte" set:html={page.html} /></div></section>
+</Base>

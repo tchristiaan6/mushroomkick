@@ -1,0 +1,284 @@
+{
+ "nav": [
+  {
+   "label": "Home",
+   "href": "/"
+  },
+  {
+   "label": "Coffee",
+   "href": "/collections/mushroom-coffee"
+  },
+  {
+   "label": "Supplements",
+   "href": "/collections/mushroom-supplements"
+  },
+  {
+   "label": "Shop All",
+   "href": "/collections/all"
+  }
+ ],
+ "hero": {
+  "kicker": "Start Your Day The Right Way",
+  "title": "Functional Mushroom Blends",
+  "text": "From focus and energy to immunity and gut health, our blends harness the power of Lion’s Mane for mental clarity, Reishi for balance, Cordyceps for stamina, Chaga for antioxidants, Shiitake and Maitake for vitality, Turkey Tail for gut support, and Royal Sun, White Button, and Black Fungus for cellular health and metabolic harmony.",
+  "cta": "Shop Now",
+  "image": "/images/site/hero-241da2.jpg"
+ },
+ "marquee": [
+  "Focus & Mental Clarity.",
+  "Balance & Stress Relief.",
+  "Natural Energy & Stamina.",
+  "Adaptogenic Support & Vitality.",
+  "Heart Health & Gut Health.",
+  "Immunity Support & Resilience."
+ ],
+ "why": {
+  "title": "Why Mushrooms?",
+  "text": "For centuries, functional mushrooms have been used to support focus, energy, and overall well-being. Packed with natural compounds like beta-glucans and adaptogens, they’re celebrated for helping the body adapt to stress and maintain balance. Found in everything from coffee blends to capsules, mushrooms like Lion’s Mane, Reishi, and Chaga offer a simple, natural way to support everyday health and energy.",
+  "cta": "Learn More",
+  "href": "/blogs/mushroom-wellness",
+  "image": "/images/site/why-mushrooms-ee0e4b.jpg"
+ },
+ "collections": [
+  {
+   "label": "Mushroom Immunity Blend",
+   "href": "/collections/mushroom-immunity-blend",
+   "image": "/images/site/mushroom-immunity-blend-642dc7.jpg"
+  },
+  {
+   "label": "Full Spectrum Mushroom Gummies",
+   "href": "/collections/full-spectrum-mushroom-gummies-1",
+   "image": "/images/site/full-spectrum-mushroom-gummies-1348f5.jpg"
+  },
+  {
+   "label": "Full Spectrum Mushroom Capsules",
+   "href": "/collections/full-spectrum-mushroom-capsules",
+   "image": "/images/site/full-spectrum-mushroom-capsules-14df0e.jpg"
+  },
+  {
+   "label": "Lion's Mane Mushroom Capsules",
+   "href": "/collections/lions-mane-mushroom-capsules",
+   "image": "/images/site/lion-s-mane-mushroom-capsules-aa5896.jpg"
+  },
+  {
+   "label": "Chaga Mushroom Capsules",
+   "href": "/collections/chaga-mushroom-capsules",
+   "image": "/images/site/chaga-mushroom-capsules-630af8.jpg"
+  },
+  {
+   "label": "Mushroom Coffee",
+   "href": "/collections/mushroom-coffee",
+   "image": "/images/site/coffee-next-to-mushrooms-3363c7.jpg"
+  }
+ ],
+ "mushrooms": [
+  {
+   "name": "Lion's Mane",
+   "text": "Lion’s Mane is best known for its brain-boosting potential. Traditionally used to support focus, clarity, and nervous system health, it’s a favorite for those looking to stay sharp without the jitters.",
+   "benefits": [
+    "Supports cognitive function and memory retention",
+    "Promotes mental focus and clarity",
+    "May help maintain a calm, productive mindset"
+   ],
+   "cta": "Learn More",
+   "href": "/blogs/mushroom-wellness/the-health-benefits-of-lions-mane",
+   "images": [
+    "/images/site/lions-mane-mushrooms-light-0b14cb.png",
+    "/images/site/wooden-plate-with-pieces-lion-s-mane-mushrooms-c6a98d.jpg"
+   ]
+  },
+  {
+   "name": "Chaga",
+   "text": "Chaga is a nutrient-dense mushroom rich in antioxidants. Traditionally used to support immune health and protect against everyday stressors, it’s known as the “king” of medicinal mushrooms.",
+   "benefits": [
+    "High in antioxidants that help combat oxidative stress",
+    "Traditionally used to support immune system balance",
+    "May help defend the body against daily environmental stressors"
+   ],
+   "cta": "Learn More",
+   "href": "/blogs/mushroom-wellness/the-health-benefits-of-chaga",
+   "images": [
+    "/images/site/chaga-mushrooms-light-07374f.png",
+    "/images/site/close-up-of-chaga-mushrooms-on-a-pedestal-c072b2.jpg"
+   ]
+  },
+  {
+   "name": "Cordyceps",
+   "text": "Cordyceps is prized for its ability to naturally support energy and stamina. It’s often used by athletes and active individuals looking for a performance edge—without relying on stimulants.",
+   "benefits": [
+    "May support natural energy and endurance",
+    "Often used to enhance oxygen utilization and stamina",
+    "Traditionally associated with physical performance and recovery"
+   ],
+   "cta": "Learn More",
+   "href": "/blogs/mushroom-wellness/the-health-benefits-of-cordyceps",
+   "images": [
+    "/images/site/cordyceps-mushrooms-light-8e7da3.png",
+    "/images/site/dried-cordyceps-mushrooms-on-a-wicker-plate-0fc757.jpg"
+   ]
+  },
+  {
+   "name": "Reishi",
+   "text": "Known as the “Mushroom of Immortality,” Reishi is deeply valued for its calming and adaptogenic properties. It’s a go-to for promoting rest, balance, and long-term well-being.",
+   "benefits": [
+    "Supports rest, relaxation, and stress resilience",
+    "Traditionally used to promote restful sleep",
+    "May help balance immune and hormonal function"
+   ],
+   "cta": "Learn More",
+   "href": "/blogs/mushroom-wellness/the-health-benefits-of-reishi-the-mushroom-of-immortality",
+   "images": [
+    "/images/site/reishi-mushrooms-light-bc1c41.png",
+    "/images/site/reishi-mushrooms-on-flat-pale-background-0404e0.jpg"
+   ]
+  },
+  {
+   "name": "Shiitake",
+   "text": "Shiitake is a culinary favorite with wellness benefits. It’s naturally rich in compounds that support heart health, immunity, and overall vitality.",
+   "benefits": [
+    "Supports cardiovascular health",
+    "Contains immune-boosting polysaccharides",
+    "Provides essential B vitamins and antioxidants"
+   ],
+   "cta": "Learn More",
+   "href": "/blogs/mushroom-wellness/the-health-benefits-of-shiitake-mushrooms",
+   "images": [
+    "/images/site/shitake-mushrooms-light-364d99.png",
+    "/images/site/shitake-mushrooms-on-wooden-surface-e64021.png"
+   ]
+  },
+  {
+   "name": "Maitake",
+   "text": "Maitake, sometimes called the “Dancing Mushroom,” is traditionally used to support the immune system and help the body adapt to stress. It’s also studied for its potential metabolic benefits.",
+   "benefits": [
+    "Helps the body adapt to physical and emotional stress",
+    "Supports a healthy immune response",
+    "May help promote metabolic balance"
+   ],
+   "cta": "Learn More",
+   "href": "/blogs/mushroom-wellness/the-health-benefits-of-maitake-mushrooms-aka-dancing-mushrooms",
+   "images": [
+    "/images/site/maitake-mushrooms-light-5b3465.png",
+    "/images/site/cluster-of-maitake-mushrooms-on-white-background-a35d6b.jpg"
+   ]
+  },
+  {
+   "name": "Turkey Tail",
+   "text": "Turkey Tail is a well-researched mushroom known for its immune-supporting beta-glucans. It’s often used to nourish the gut microbiome and promote overall resilience.",
+   "benefits": [
+    "Rich in beta-glucans that support immune modulation",
+    "May help nourish and balance gut",
+    "Used to promote long-term immune resilience"
+   ],
+   "cta": "Learn More",
+   "href": "/blogs/mushroom-wellness/the-health-benefits-of-turkey-tail",
+   "images": [
+    "/images/site/turkey-tail-light-2-5ac7b8.png",
+    "/images/site/turkey-tail-mushroom-growing-on-a-tree-5a962d.jpg"
+   ]
+  },
+  {
+   "name": "White Button",
+   "text": "White Button mushrooms are the most commonly eaten mushroom worldwide. Beyond their culinary use, they offer surprising health benefits tied to metabolism and hormonal balance.",
+   "benefits": [
+    "Contains antioxidants that support cell health",
+    "May promote hormone and metabolic balance",
+    "A nutrient-dense everyday mushroom"
+   ],
+   "cta": "Learn More",
+   "href": "/blogs/mushroom-wellness/the-health-benefits-of-white-button-mushrooms",
+   "images": [
+    "/images/site/white-button-mushrooms-light-c0ce3f.png",
+    "/images/site/white-button-to-chestnut-mushrooms-a13f78.jpg"
+   ]
+  },
+  {
+   "name": "Black Fungus",
+   "text": "Common in Asian cuisine, Black Fungus is rich in fiber and traditionally used to support circulation and digestion.",
+   "benefits": [
+    "Supports healthy blood flow and circulation",
+    "Rich in fiber, iron, and antioxidants",
+    "Often consumed for digestive health"
+   ],
+   "cta": "Learn More",
+   "href": "/blogs/mushroom-wellness/the-health-benefits-of-black-fungus-mushrooms",
+   "images": [
+    "/images/site/black-fungus-mushrooms-light-4311bc.png",
+    "/images/site/black-fungus-mushrooms-white-bg-b393df.png"
+   ]
+  }
+ ],
+ "featured_product": "",
+ "badges": [
+  {
+   "label": "100% Natural",
+   "icon": "/images/site/100-natural-0db32a.png"
+  },
+  {
+   "label": "Non-GMO",
+   "icon": "/images/site/non-gmo-d00faa.png"
+  },
+  {
+   "label": "Vegan",
+   "icon": "/images/site/vegan-50c108.png"
+  },
+  {
+   "label": "Gluten Free",
+   "icon": "/images/site/gluten-free-e2247e.png"
+  },
+  {
+   "label": "Allergen Free",
+   "icon": "/images/site/allergen-free-fc3e65.png"
+  },
+  {
+   "label": "No Fillers",
+   "icon": "/images/site/no-fillers-344511.png"
+  },
+  {
+   "label": "Antibiotic Free",
+   "icon": "/images/site/antibiotic-free-a8db03.png"
+  },
+  {
+   "label": "Hormone Free",
+   "icon": "/images/site/hormone-free-4d5184.png"
+  },
+  {
+   "label": "Corn Free",
+   "icon": "/images/site/corn-free-3e359c.png"
+  },
+  {
+   "label": "Lactose Free",
+   "icon": "/images/site/lactose-free-71cc01.png"
+  },
+  {
+   "label": "Vegetarian",
+   "icon": "/images/site/vegetarian-2b1036.png"
+  }
+ ],
+ "trust": [
+  {
+   "title": "Free Shipping",
+   "text": "Free Shipping Free shipping on US orders, free shipping on EU orders over $100.",
+   "icon": "/images/site/trust-free-shipping.png"
+  },
+  {
+   "title": "30-Day Refunds",
+   "text": "30-Day Refunds We have a 30-day, no-hassle refund policy. If you're not happy, we're not happy.",
+   "icon": "/images/site/trust-30-day-refunds.png"
+  },
+  {
+   "title": "Contact Us",
+   "text": "Contact Us Reach out to us anytime by visiting our Contact Us page.",
+   "icon": "/images/site/trust-contact-us.png"
+  },
+  {
+   "title": "Secure Payments",
+   "text": "Secure Payments Payment information is processed quickly and securely.",
+   "icon": "/images/site/trust-secure-payments.png"
+  }
+ ],
+ "blog_heading": "Check our the latest from our blog..",
+ "footer": {
+  "text": "Mushroom Kick\nFunctional mushroom coffee and supplements.\nQuick Links\nSearch\nAbout\nContact\nPolicies\nRefund Policy\nShipping Policy\nPrivacy Policy\nYour Privacy Choices\nMain Store\n1880 Little Raven, Denver, CO 80202\nCopyright © 2026\nMushroom Kick\n.\nPowered by Shopify"
+ }
+}

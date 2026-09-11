@@ -1,0 +1,65 @@
+{
+ "coffee-accessories": {
+  "title": "Coffee Accessories",
+  "description": "",
+  "products": [
+   "mushroom-kick-stainless-steel-travel-mug",
+   "mushroom-kick-ceramic-coffee-mug-15oz"
+  ]
+ },
+ "mushroom-supplements": {
+  "title": "Mushroom Supplements",
+  "description": "",
+  "products": [
+   "mushroom-focus-strips",
+   "mens-peak-performance-vitality-blend",
+   "lions-mane-mushroom",
+   "immunity-mushroom-powder-blend",
+   "full-spectrum-mushroom-complex-10x-capsules",
+   "full-spectrum-mushroom-complex-10x-gummies",
+   "chaga-mushroom-capsules"
+  ]
+ },
+ "full-spectrum-mushroom-gummies-1": {
+  "title": "Full Spectrum Mushroom Gummies",
+  "description": "",
+  "products": [
+   "full-spectrum-mushroom-complex-10x-gummies"
+  ]
+ },
+ "mushroom-coffee": {
+  "title": "Mushroom Coffee",
+  "description": "",
+  "products": [
+   "vitality-mushroom-coffee-medium-roast"
+  ]
+ },
+ "lions-mane-mushroom-capsules": {
+  "title": "Lion's Mane Mushroom Capsules",
+  "description": "",
+  "products": [
+   "lions-mane-mushroom"
+  ]
+ },
+ "mushroom-immunity-blend": {
+  "title": "Mushroom Immunity Blend",
+  "description": "",
+  "products": [
+   "immunity-mushroom-powder-blend"
+  ]
+ },
+ "chaga-mushroom-capsules": {
+  "title": "Chaga Mushroom Capsules",
+  "description": "",
+  "products": [
+   "chaga-mushroom-capsules"
+  ]
+ },
+ "full-spectrum-mushroom-capsules": {
+  "title": "Full Spectrum Mushroom Capsules",
+  "description": "",
+  "products": [
+   "full-spectrum-mushroom-complex-10x-capsules"
+  ]
+ }
+}
