@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mushroomkick.com/sitemap-index.xml
